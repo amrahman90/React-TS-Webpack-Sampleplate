@@ -1,4 +1,4 @@
-# QSMP CUI Dashboard with React and QSMP CUI REST API
+# React App
 
 Created by using React, Webpack and TypeScript
 
@@ -13,7 +13,7 @@ npm install or yarn
 
 To run it locally
 ```shell
-npm run start or yarn start
+npm start or yarn start
 ```
 
 Project will run on port 8080
