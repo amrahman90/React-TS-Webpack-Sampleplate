@@ -34,6 +34,12 @@ const config: webpack.Configuration = {
       template: "src/index.html",
     }),
     new webpack.HotModuleReplacementPlugin(),
+    new ForkTsCheckerWebpackPlugin({
+      async: false
+    }),
+    new ESLintPlugin({
+      extensions: ["js", "jsx", "ts", "tsx"],
+    }),
   ],
   devtool: "inline-source-map",
   devServer: {
