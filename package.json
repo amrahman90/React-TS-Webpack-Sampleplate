@@ -1,4 +1,8 @@
 {
-  "name": "qsmp-cui-react",
-  "version": "0.0.1"
+    "name": "qsmp-cui-react",
+    "version": "0.0.1",
+    "dependencies": {
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    }
 }
