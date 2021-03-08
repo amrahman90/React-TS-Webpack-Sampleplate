@@ -21,4 +21,4 @@ Project will run on port 8080
 To build the project
 ```shell
 npm run build or yarn build
-``
+```
