@@ -14,7 +14,10 @@
     "noImplicitThis": true,
     "strictNullChecks": true,
     "noEmit": true,
-    "jsx": "react"
-  },
-  "include": ["src"]
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+  }
 }
